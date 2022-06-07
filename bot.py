@@ -6,7 +6,7 @@ from precios import obtener_precios
 
 bot_token = "tu token"
 
-# Updater se encarga de "escuchar/interpretar" los mensajes que le envian al bot
+# Updater se encarga de interpretar los mensajes que le envian al bot
 # dispatcher manipula/controla dichos mensajes
 updater = Updater(token=bot_token, use_context=True)
 dispatcher = updater.dispatcher
